@@ -9,43 +9,43 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/services.html</loc>
+    <loc>https://arvani-media.com/services</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/pricing.html</loc>
+    <loc>https://arvani-media.com/pricing</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/about.html</loc>
+    <loc>https://arvani-media.com/about</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog.html</loc>
+    <loc>https://arvani-media.com/blog</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/arvani-pro.html</loc>
+    <loc>https://arvani-media.com/arvani-pro</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/reviews.html</loc>
+    <loc>https://arvani-media.com/reviews</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/calendar.html</loc>
+    <loc>https://arvani-media.com/calendar</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -53,19 +53,19 @@
 
   <!-- Sub-Service Pages -->
   <url>
-    <loc>https://arvani-media.com/email-marketing.html</loc>
+    <loc>https://arvani-media.com/email-marketing</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/linkedin-marketing.html</loc>
+    <loc>https://arvani-media.com/linkedin-marketing</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/ai-automations.html</loc>
+    <loc>https://arvani-media.com/ai-automations</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -73,13 +73,13 @@
 
   <!-- Legal -->
   <url>
-    <loc>https://arvani-media.com/privacy-policy.html</loc>
+    <loc>https://arvani-media.com/privacy-policy</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/terms.html</loc>
+    <loc>https://arvani-media.com/terms</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
@@ -87,97 +87,97 @@
 
   <!-- Blog Posts -->
   <url>
-    <loc>https://arvani-media.com/blog/cold-email-vs-sdr.html</loc>
+    <loc>https://arvani-media.com/blog/cold-email-vs-sdr</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/cold-email-agency-pricing.html</loc>
+    <loc>https://arvani-media.com/blog/cold-email-agency-pricing</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/cold-email-commercial-real-estate.html</loc>
+    <loc>https://arvani-media.com/blog/cold-email-commercial-real-estate</loc>
     <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/cold-email-staffing.html</loc>
+    <loc>https://arvani-media.com/blog/cold-email-staffing</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/cold-email-financial-services.html</loc>
+    <loc>https://arvani-media.com/blog/cold-email-financial-services</loc>
     <lastmod>2026-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/cold-email-saas.html</loc>
+    <loc>https://arvani-media.com/blog/cold-email-saas</loc>
     <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/cold-email-spam-fix.html</loc>
+    <loc>https://arvani-media.com/blog/cold-email-spam-fix</loc>
     <lastmod>2026-01-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/cold-email-vs-linkedin.html</loc>
+    <loc>https://arvani-media.com/blog/cold-email-vs-linkedin</loc>
     <lastmod>2026-01-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/ai-reply-classification.html</loc>
+    <loc>https://arvani-media.com/blog/ai-reply-classification</loc>
     <lastmod>2026-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/cold-email-deliverability.html</loc>
+    <loc>https://arvani-media.com/blog/cold-email-deliverability</loc>
     <lastmod>2025-12-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/build-b2b-lead-list.html</loc>
+    <loc>https://arvani-media.com/blog/build-b2b-lead-list</loc>
     <lastmod>2025-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/b2b-outbound-system.html</loc>
+    <loc>https://arvani-media.com/blog/b2b-outbound-system</loc>
     <lastmod>2025-12-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/email-warmup-guide.html</loc>
+    <loc>https://arvani-media.com/blog/email-warmup-guide</loc>
     <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/email-linkedin-multi-channel.html</loc>
+    <loc>https://arvani-media.com/blog/email-linkedin-multi-channel</loc>
     <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/buying-signals-b2b.html</loc>
+    <loc>https://arvani-media.com/blog/buying-signals-b2b</loc>
     <lastmod>2025-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arvani-media.com/blog/cold-email-offer.html</loc>
+    <loc>https://arvani-media.com/blog/cold-email-offer</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

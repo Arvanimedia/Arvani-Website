@@ -164,10 +164,11 @@ nav.scrolled{background:rgba(17,17,17,.97);backdrop-filter:blur(12px);padding:10
 /* HERO */
 .hero{background:linear-gradient(135deg,#0a0a0a 0%,#1a1a1a 50%,#111 100%);padding:140px 0 60px;text-align:center;position:relative;overflow:hidden}
 .hero h1{font-size:clamp(2.4rem,5vw,3.6rem);color:var(--white);margin-bottom:16px}.hero h1 span{color:var(--orange)}
-.hero .subtitle{color:rgba(255,255,255,.65);font-size:1.05rem;max-width:600px;margin:0 auto;line-height:1.7}
 .breadcrumb{color:rgba(255,255,255,.4);font-size:.85rem;margin-bottom:24px}.breadcrumb a{color:rgba(255,255,255,.5)}.breadcrumb a:hover{color:var(--orange)}
-.hero-meta{color:rgba(255,255,255,.5);font-size:.9rem;margin-top:20px}
+.hero-meta{color:rgba(255,255,255,.5);font-size:.9rem;display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:24px}
 .hero-meta a{color:var(--orange);font-weight:500}
+.hero-meta .tag{background:rgba(255,178,62,.15);color:var(--orange);font-size:.75rem;font-weight:600;padding:4px 14px;border-radius:50px;text-transform:uppercase;letter-spacing:.04em}
+.hero-sub{color:rgba(255,255,255,.65);font-size:1.1rem;max-width:640px;line-height:1.7;margin-bottom:32px}
 
 /* ARTICLE */
 .article-section{padding:64px 0 80px}
@@ -296,9 +297,32 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
 <header class="hero">
   <div class="container">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; <a href="../blog.html">Blog</a> &rsaquo; AI Reply Classification</div>
+    <div class="hero-meta">
+      <span class="tag">AI Outbound</span>
+      <span>By Arvani Media &middot; Edited by Anthony Volz</span>
+      <span>&middot;</span>
+      <span>January 2, 2026</span>
+      <span>&middot;</span>
+      <span>12 min read</span>
+    </div>
     <h1>How AI Reply Classification Is <span>Changing Cold Email</span></h1>
-    <p class="subtitle">AI-powered classification categorizes every cold email response in real time, so your team can follow up faster and never miss a warm lead.</p>
-    <p class="hero-meta">By Arvani Media &middot; Edited by Anthony Volz &middot; January 2, 2026 &middot; 12 min read</p>
+    <p class="hero-sub">AI-powered classification categorizes every cold email response in real time, so your team can follow up faster and never miss a warm lead.</p>
+    <div class="toc">
+      <h3>Table of Contents</h3>
+      <ol>
+        <li><a href="#problem">The Problem: Manually Sorting Replies Doesn't Scale</a></li>
+        <li><a href="#what-is">What Is AI Reply Classification?</a></li>
+        <li><a href="#how-it-works">How It Works: NLP, Sentiment, and Intent Detection</a></li>
+        <li><a href="#categories">The Classification Categories That Matter</a></li>
+        <li><a href="#routing">Real-Time Routing: From Inbox to Action</a></li>
+        <li><a href="#benefits">The Benefits for B2B Outreach Teams</a></li>
+        <li><a href="#arvani">How Arvani Media Uses AI Classification</a></li>
+        <li><a href="#what-to-look-for">What to Look for in an AI Classification System</a></li>
+        <li><a href="#future">The Future: Predictive Scoring and Intent Signals</a></li>
+        <li><a href="#faq">Frequently Asked Questions</a></li>
+      </ol>
+    </div>
+    <img src="covers/ai-reply-classification-cover.svg" alt="How AI Reply Classification Is Changing Cold Email" style="width:100%;max-width:880px;border-radius:12px;margin-top:28px;display:block">
   </div>
 </header>
 
@@ -306,24 +330,6 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
 <section class="article-section">
   <div class="container">
     <div class="article-wrap">
-
-      <!-- TABLE OF CONTENTS -->
-      <div class="toc">
-        <h3>Table of Contents</h3>
-        <ol>
-          <li><a href="#problem">The Problem: Manually Sorting Replies Doesn't Scale</a></li>
-          <li><a href="#what-is">What Is AI Reply Classification?</a></li>
-          <li><a href="#how-it-works">How It Works: NLP, Sentiment, and Intent Detection</a></li>
-          <li><a href="#categories">The Classification Categories That Matter</a></li>
-          <li><a href="#routing">Real-Time Routing: From Inbox to Action</a></li>
-          <li><a href="#benefits">The Benefits for B2B Outreach Teams</a></li>
-          <li><a href="#arvani">How Arvani Media Uses AI Classification</a></li>
-          <li><a href="#what-to-look-for">What to Look for in an AI Classification System</a></li>
-          <li><a href="#future">The Future: Predictive Scoring and Intent Signals</a></li>
-          <li><a href="#faq">Frequently Asked Questions</a></li>
-        </ol>
-      </div>
-      <img src="covers/ai-reply-classification-cover.svg" alt="How AI Reply Classification Is Changing Cold Email" style="width:100%;max-width:880px;border-radius:12px;margin-top:28px;display:block">
 
       <!-- ARTICLE BODY -->
       <div class="article-body">

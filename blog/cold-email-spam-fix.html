@@ -144,8 +144,10 @@ nav.scrolled{background:rgba(17,17,17,.97);backdrop-filter:blur(12px);padding:10
 .hero{background:linear-gradient(135deg,#0a0a0a 0%,#1a1a1a 50%,#111 100%);padding:140px 0 60px;position:relative;overflow:hidden}
 .breadcrumb{color:rgba(255,255,255,.4);font-size:.85rem;margin-bottom:24px}.breadcrumb a{color:rgba(255,255,255,.5)}.breadcrumb a:hover{color:var(--orange)}
 .hero h1{font-size:clamp(2.4rem,5vw,3.6rem);color:var(--white);margin-bottom:20px;max-width:720px}.hero h1 span{color:var(--orange)}
-.hero-meta{color:rgba(255,255,255,.5);font-size:.95rem;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.hero-meta{color:rgba(255,255,255,.5);font-size:.95rem;display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:24px}
 .hero-meta a{color:var(--orange);font-weight:600}.hero-meta a:hover{text-decoration:underline}
+.hero-meta .tag{background:rgba(255,178,62,.15);color:var(--orange);font-size:.75rem;font-weight:600;padding:4px 14px;border-radius:50px;text-transform:uppercase;letter-spacing:.04em}
+.hero-sub{color:rgba(255,255,255,.65);font-size:1.1rem;max-width:640px;line-height:1.7;margin-bottom:32px}
 
 /* ARTICLE */
 .article-body{padding:64px 0}
@@ -265,14 +267,29 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
 <header class="hero">
   <div class="container">
     <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; <a href="../blog.html">Blog</a> &rsaquo; Why Your Cold Emails Land in Spam</div>
-    <h1>Why Your Cold Emails Land in <span>Spam</span></h1>
     <div class="hero-meta">
+      <span class="tag">Deliverability</span>
       <span>By Arvani Media &middot; Edited by Anthony Volz</span>
       <span>&middot;</span>
       <span>January 16, 2026</span>
       <span>&middot;</span>
       <span>12 min read</span>
     </div>
+    <h1>Why Your Cold Emails Land in <span>Spam</span></h1>
+    <p class="hero-sub">You spent hours writing the perfect cold email. The subject line is sharp. The offer is compelling. You hit send on 500 emails and wait for the replies to roll in. But nothing happens. Your open rate is sitting at 12%, your reply rate is flatlined, and a quick check confirms your worst suspicion: your emails are landing in spam.</p>
+    <div class="toc">
+      <h2>Table of Contents</h2>
+      <ol>
+        <li><a href="#no-authentication">No SPF, DKIM, or DMARC Authentication</a></li>
+        <li><a href="#primary-domain">Sending From Your Primary Domain</a></li>
+        <li><a href="#no-warmup">No Warmup or Insufficient Warmup</a></li>
+        <li><a href="#bad-lists">Bad Lead Lists and High Bounce Rates</a></li>
+        <li><a href="#spammy-content">Spammy Content and Trigger Words</a></li>
+        <li><a href="#too-much-volume">Sending Too Much Volume Too Fast</a></li>
+        <li><a href="#no-compliance">No Unsubscribe or Compliance Handling</a></li>
+      </ol>
+    </div>
+    <img src="covers/cold-email-spam-fix-cover.svg" alt="Why Your Cold Emails Land in Spam" style="width:100%;max-width:880px;border-radius:12px;margin-top:28px;display:block">
   </div>
 </header>
 
@@ -281,24 +298,7 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
   <div class="container">
     <div class="article-wrap">
 
-      <p>You spent hours writing the perfect cold email. The subject line is sharp. The offer is compelling. You hit send on 500 emails and wait for the replies to roll in. But nothing happens. Your open rate is sitting at 12%, your reply rate is flatlined, and a quick check confirms your worst suspicion: your emails are landing in spam.</p>
-
       <p>This is one of the most common problems in B2B outbound, and it has nothing to do with your copy. <strong>Cold email deliverability</strong> is a technical discipline. If you get the fundamentals wrong, inbox providers will filter your messages before a single prospect ever sees them. The good news is that every deliverability problem has a concrete fix. Here are the seven most common reasons your cold emails land in spam, and exactly what to do about each one.</p>
-
-      <!-- TABLE OF CONTENTS -->
-      <div class="toc">
-        <h2>Table of Contents</h2>
-        <ol>
-          <li><a href="#no-authentication">No SPF, DKIM, or DMARC Authentication</a></li>
-          <li><a href="#primary-domain">Sending From Your Primary Domain</a></li>
-          <li><a href="#no-warmup">No Warmup or Insufficient Warmup</a></li>
-          <li><a href="#bad-lists">Bad Lead Lists and High Bounce Rates</a></li>
-          <li><a href="#spammy-content">Spammy Content and Trigger Words</a></li>
-          <li><a href="#too-much-volume">Sending Too Much Volume Too Fast</a></li>
-          <li><a href="#no-compliance">No Unsubscribe or Compliance Handling</a></li>
-        </ol>
-      </div>
-      <img src="covers/cold-email-spam-fix-cover.svg" alt="Why Your Cold Emails Land in Spam" style="width:100%;max-width:880px;border-radius:12px;margin-top:28px;display:block">
 
       <!-- SECTION 1 -->
       <h2 id="no-authentication">1. No SPF, DKIM, or DMARC Authentication</h2>

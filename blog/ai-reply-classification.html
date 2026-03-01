@@ -169,30 +169,40 @@ nav.scrolled{background:rgba(17,17,17,.97);backdrop-filter:blur(12px);padding:10
 .hero-meta a{color:var(--orange);font-weight:500}
 .hero-meta .tag{background:rgba(255,178,62,.15);color:var(--orange);font-size:.75rem;font-weight:600;padding:4px 14px;border-radius:50px;text-transform:uppercase;letter-spacing:.04em}
 .hero-sub{color:rgba(255,255,255,.65);font-size:1.1rem;max-width:640px;line-height:1.7;margin-bottom:32px}
+.toc{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:24px 28px;margin-top:32px}
+.toc h3{color:var(--white);font-size:1.1rem;margin-bottom:14px;font-family:'Instrument Sans',sans-serif;font-weight:700}
+.toc ol{list-style:decimal;padding-left:20px;display:grid;grid-template-columns:1fr 1fr;gap:6px 32px}
+.toc li{color:rgba(255,255,255,.5);font-size:.88rem;padding:3px 0}
+.toc a{color:rgba(255,255,255,.65);transition:var(--transition)}.toc a:hover{color:var(--orange)}
+
+
+
+
+
 
 /* ARTICLE */
-.article-section{padding:64px 0 80px}
-.article-wrap{max-width:720px;margin:0 auto}
+
+
 
 /* TOC */
-.toc{background:var(--off-white);border:1px solid #eee;border-radius:var(--radius);padding:28px 32px;margin-bottom:48px}
-.toc h3{font-family:'Instrument Sans',sans-serif;font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:14px;letter-spacing:0}
-.toc ol{list-style:decimal;padding-left:20px;display:flex;flex-direction:column;gap:8px}
+
+
+
 .toc ol li{font-size:.9rem;color:var(--text-light);line-height:1.5}
 .toc ol li a{color:var(--text);font-weight:500;transition:var(--transition)}.toc ol li a:hover{color:var(--orange)}
 
 /* ARTICLE BODY */
-.article-body h2{font-size:clamp(1.6rem,3vw,2.2rem);color:var(--dark);margin:48px 0 16px}
-.article-body h3{font-size:clamp(1.2rem,2vw,1.5rem);color:var(--dark);margin:36px 0 12px}
-.article-body p{font-size:1.05rem;line-height:1.8;color:var(--text);margin-bottom:20px}
-.article-body ul,.article-body ol{margin:0 0 24px 24px}
-.article-body ul{list-style:disc}.article-body ol{list-style:decimal}
-.article-body li{font-size:1.05rem;line-height:1.8;color:var(--text);margin-bottom:8px}
-.article-body strong{color:var(--dark);font-weight:600}
-.article-body a{color:var(--orange);font-weight:500;text-decoration:underline;text-decoration-color:rgba(255,178,62,.3);text-underline-offset:3px;transition:var(--transition)}
-.article-body a:hover{text-decoration-color:var(--orange)}
-.article-body blockquote{border-left:4px solid var(--orange);background:var(--orange-glow);padding:20px 24px;border-radius:0 var(--radius-sm) var(--radius-sm) 0;margin:32px 0;font-style:italic;color:var(--text)}
-.article-body blockquote p{margin-bottom:0}
+
+
+
+
+
+
+
+
+
+
+
 
 /* MID-ARTICLE CTA */
 .mid-cta{background:linear-gradient(135deg,#1a1a1a,#111);border-radius:var(--radius);padding:40px 36px;text-align:center;margin:48px 0}
@@ -252,13 +262,22 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
 .sticky-cta .btn{width:100%;justify-content:center;padding:14px;font-size:1rem}
 
 @media(max-width:1024px){.footer-grid{grid-template-columns:1fr 1fr}.related-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.hero{padding:120px 0 48px}.article-section{padding:40px 0 60px}.toc{padding:20px 24px}.article-body h2{margin-top:36px}.mid-cta{padding:32px 24px}.related-grid{grid-template-columns:1fr}.class-table{font-size:.85rem}.class-table th,.class-table td{padding:10px 12px}.faq-section,.related-section{padding:60px 0}.sticky-cta{display:block}body{padding-bottom:70px}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:8px;text-align:center}.feature-card,.stat-card,.step,.plan-card,.channel-card,.cta-card{padding:20px}}
+@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.hero{padding:120px 0 48px}.mid-cta{padding:32px 24px}.related-grid{grid-template-columns:1fr}.class-table{font-size:.85rem}.class-table th,.class-table td{padding:10px 12px}.faq-section,.related-section{padding:60px 0}.sticky-cta{display:block}body{padding-bottom:70px}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:8px;text-align:center}.feature-card,.stat-card,.step,.plan-card,.channel-card,.cta-card{padding:20px}}
 @media(max-width:480px){
   .hero{padding:90px 0 40px}
   .section{padding:40px 0}
   .container{padding:0 16px}
   .plan-price,.stat-number{font-size:2rem}
 }
+.article-body{max-width:720px;margin:0 auto;padding:64px 24px 80px}
+.article-body h2{font-size:clamp(1.6rem,3vw,2.2rem);color:var(--dark);margin:48px 0 18px;scroll-margin-top:100px}
+.article-body h2 span{color:var(--orange)}
+.article-body h3{font-size:1.2rem;font-family:'Instrument Sans',sans-serif;font-weight:700;color:var(--dark);margin:32px 0 12px}
+.article-body p{font-size:1.02rem;line-height:1.8;margin-bottom:18px;color:#444}
+.article-body ul,.article-body ol{margin:0 0 20px 24px;list-style:disc}.article-body ol{list-style:decimal}
+.article-body li{font-size:1rem;line-height:1.7;margin-bottom:8px;color:#444}
+.article-body strong{color:var(--dark)}
+.article-body a{color:var(--orange-dark);font-weight:600;border-bottom:1px solid transparent;transition:var(--transition)}.article-body a:hover{border-bottom-color:var(--orange-dark)}
 </style>
 </head>
 
@@ -327,12 +346,7 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
 </header>
 
 <!-- ARTICLE -->
-<section class="article-section">
-  <div class="container">
-    <div class="article-wrap">
-
-      <!-- ARTICLE BODY -->
-      <div class="article-body">
+<article class="article-body">
 
         <p>Cold email remains one of the most effective channels for B2B lead generation. When done correctly, it consistently delivers qualified meetings at a fraction of the cost of paid advertising or traditional outbound sales. But there is a bottleneck that most companies hit well before they reach scale: managing the replies.</p>
 
@@ -514,10 +528,7 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
           <p>The companies that generate the most pipeline from cold email in 2026 and beyond won't be the ones with the best copywriters or the largest lead lists. They'll be the ones with the best AI systems managing every reply the moment it lands.</p>
         </blockquote>
 
-      </div><!-- /article-body -->
-    </div><!-- /article-wrap -->
-  </div>
-</section>
+</article>
 
 <!-- FAQ -->
 <section class="faq-section" id="faq">

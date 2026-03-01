@@ -157,6 +157,11 @@ nav.scrolled{background:rgba(17,17,17,.97);backdrop-filter:blur(12px);padding:10
 .nav-cta{background:var(--orange);color:#fff!important;padding:10px 22px;border-radius:50px;font-weight:600;font-size:.85rem}.nav-cta:hover{background:var(--orange-dark);color:#fff!important}
 .nav-phone{color:rgba(255,255,255,.6)!important;font-size:.8rem}
 .nav-dropdown:hover .hero .container{max-width:880px}
+.toc{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:24px 28px;margin-top:32px}
+.toc h3{color:var(--white);font-size:1.1rem;margin-bottom:14px;font-family:'Instrument Sans',sans-serif;font-weight:700}
+.toc ol{list-style:decimal;padding-left:20px;display:grid;grid-template-columns:1fr 1fr;gap:6px 32px}
+.toc li{color:rgba(255,255,255,.5);font-size:.88rem;padding:3px 0}
+.toc a{color:rgba(255,255,255,.65);transition:var(--transition)}.toc a:hover{color:var(--orange)}
 .hero-meta{display:flex;align-items:center;gap:16px;color:rgba(255,255,255,.5);font-size:.9rem;margin-bottom:24px;flex-wrap:wrap}
 .hero-meta .tag{background:rgba(255,178,62,.15);color:var(--orange);font-size:.75rem;font-weight:600;padding:4px 14px;border-radius:50px;text-transform:uppercase;letter-spacing:.04em}
 .hero-sub,.hero>p{color:rgba(255,255,255,.65);font-size:1.1rem;max-width:640px;line-height:1.7}
@@ -173,22 +178,22 @@ nav.scrolled{background:rgba(17,17,17,.97);backdrop-filter:blur(12px);padding:10
 .breadcrumb{color:rgba(255,255,255,.4);font-size:.85rem;margin-bottom:24px}.breadcrumb a{color:rgba(255,255,255,.5)}.breadcrumb a:hover{color:var(--orange)}
 
 /* ARTICLE LAYOUT */
-.article-wrapper{max-width:720px;margin:0 auto;padding:60px 24px 40px}
+
 
 /* TOC */
-.toc{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:24px 28px;margin-top:32px}
-.toc h3{color:var(--white);font-size:1.1rem;margin-bottom:14px;font-family:'Instrument Sans',sans-serif;font-weight:700}
-.toc ol{list-style:decimal;padding-left:20px;display:grid;grid-template-columns:1fr 1fr;gap:6px 32px}
-.toc li{color:rgba(255,255,255,.5);font-size:.88rem;padding:3px 0}
-.toc a{color:rgba(255,255,255,.65);transition:var(--transition)}.toc a:hover{color:var(--orange)}
+
+
+
+
+
 
 /* ARTICLE BODY */
-.article-body h2{font-size:clamp(1.6rem,3vw,2rem);color:var(--dark);margin:48px 0 24px;padding-bottom:12px;border-bottom:2px solid var(--orange)}
-.article-body h2 .section-num{color:var(--orange);margin-right:4px}
-.article-body p{font-size:1.05rem;line-height:1.75;color:var(--text);margin-bottom:20px}
-.article-body strong{color:var(--dark)}
-.article-body a{color:var(--orange);font-weight:500;text-decoration:underline;text-decoration-color:rgba(255,178,62,.3);text-underline-offset:3px;transition:var(--transition)}
-.article-body a:hover{text-decoration-color:var(--orange)}
+
+
+
+
+
+
 
 /* CHECKLIST ITEM */
 .checklist-item{background:var(--white);border:1px solid #eee;border-radius:var(--radius);padding:28px 28px 28px 80px;margin-bottom:20px;position:relative;transition:var(--transition)}
@@ -247,13 +252,22 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
 .sticky-cta .btn{width:100%;justify-content:center;padding:14px;font-size:1rem}
 
 @media(max-width:1024px){.related-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.related-grid{grid-template-columns:1fr}.hero{padding:120px 0 60px}.article-wrapper{padding:40px 20px 30px}.checklist-item{padding:24px 20px 24px 68px}.checklist-item .item-number{left:16px;top:24px;width:36px;height:36px;font-size:1.1rem}.toc{padding:20px 24px}.mid-cta{padding:32px 24px}.sticky-cta{display:block}body{padding-bottom:70px}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:8px;text-align:center}.feature-card,.stat-card,.step,.plan-card,.channel-card,.cta-card{padding:20px}}
+@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.related-grid{grid-template-columns:1fr}.hero{padding:120px 0 60px}.checklist-item{padding:24px 20px 24px 68px}.checklist-item .item-number{left:16px;top:24px;width:36px;height:36px;font-size:1.1rem}.mid-cta{padding:32px 24px}.sticky-cta{display:block}body{padding-bottom:70px}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:8px;text-align:center}.feature-card,.stat-card,.step,.plan-card,.channel-card,.cta-card{padding:20px}}
 @media(max-width:480px){
   .hero{padding:90px 0 40px}
   .section{padding:40px 0}
   .container{padding:0 16px}
   .plan-price,.stat-number{font-size:2rem}
 }
+.article-body{max-width:720px;margin:0 auto;padding:64px 24px 80px}
+.article-body h2{font-size:clamp(1.6rem,3vw,2.2rem);color:var(--dark);margin:48px 0 18px;scroll-margin-top:100px}
+.article-body h2 span{color:var(--orange)}
+.article-body h3{font-size:1.2rem;font-family:'Instrument Sans',sans-serif;font-weight:700;color:var(--dark);margin:32px 0 12px}
+.article-body p{font-size:1.02rem;line-height:1.8;margin-bottom:18px;color:#444}
+.article-body ul,.article-body ol{margin:0 0 20px 24px;list-style:disc}.article-body ol{list-style:decimal}
+.article-body li{font-size:1rem;line-height:1.7;margin-bottom:8px;color:#444}
+.article-body strong{color:var(--dark)}
+.article-body a{color:var(--orange-dark);font-weight:600;border-bottom:1px solid transparent;transition:var(--transition)}.article-body a:hover{border-bottom-color:var(--orange-dark)}
 </style>
 </head>
 
@@ -318,10 +332,7 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
 </header>
 
 <!-- ARTICLE -->
-<article>
-  <div class="article-wrapper">
-
-    <div class="article-body">
+<article class="article-body">
 
       <p>The problem is that deliverability is not one thing. It is a system of overlapping technical configurations, behavioral signals, and content decisions that mailbox providers evaluate in real time. Miss one piece and your inbox placement drops. Miss several and you are effectively blacklisted.</p>
 
@@ -533,8 +544,6 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
         </div>
       </div>
 
-    </div><!-- .article-body -->
-  </div><!-- .article-wrapper -->
 </article>
 
 <!-- RELATED ARTICLES -->

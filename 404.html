@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found | Arvani Media</title>
+<meta name="description" content="The page you're looking for doesn't exist. Return to Arvani Media's homepage to explore our B2B cold email services.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://arvani-media.com/">
+<meta property="og:title" content="Page Not Found | Arvani Media">
+<meta property="og:description" content="The page you're looking for doesn't exist.">
+<meta property="og:image" content="https://arvani-media.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Arvani Media — Done-For-You B2B Outbound">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://arvani-media.com/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--orange:#ffb23e;--orange-dark:#e69a2e;--orange-glow:rgba(255,178,62,.15);--dark:#111;--dark-card:#1a1a1a;--white:#fff;--off-white:#f8f8f8;--text:#333;--text-light:#666;--radius:12px;--radius-sm:8px;--max-w:1200px;--transition:all .3s ease}
+html{scroll-behavior:smooth}body{font-family:'Instrument Sans',system-ui,sans-serif;color:var(--text);background:var(--white);line-height:1.6;overflow-x:hidden;min-height:100vh;display:flex;flex-direction:column}
+h1,h2,h3,h4{font-family:'Bebas Neue',system-ui,sans-serif;line-height:1.1;letter-spacing:.02em}a{text-decoration:none;color:inherit}
+.container{max-width:var(--max-w);margin:0 auto;padding:0 24px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:50px;font-family:'Instrument Sans',sans-serif;font-weight:600;font-size:1rem;cursor:pointer;border:none;transition:var(--transition)}
+.btn-primary{background:var(--orange);color:#fff;box-shadow:0 4px 16px rgba(255,178,62,.3)}.btn-primary:hover{background:var(--orange-dark);transform:translateY(-2px)}
+.btn-outline{background:transparent;color:var(--white);border:2px solid rgba(255,255,255,.3)}.btn-outline:hover{border-color:var(--orange);color:var(--orange)}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 0;transition:var(--transition)}
+nav.scrolled{background:rgba(17,17,17,.97);backdrop-filter:blur(12px);padding:10px 0;box-shadow:0 2px 20px rgba(0,0,0,.3)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;max-width:var(--max-w);margin:0 auto;padding:0 24px}
+.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;color:var(--white);letter-spacing:.05em}.nav-logo span{color:var(--orange)}
+.nav-links{display:flex;align-items:center;gap:28px}.nav-links a{color:rgba(255,255,255,.8);font-size:.9rem;font-weight:500;transition:var(--transition)}.nav-links a:hover{color:var(--orange)}
+.nav-cta{background:var(--orange);color:#fff!important;padding:10px 22px;border-radius:50px;font-weight:600;font-size:.85rem}.nav-cta:hover{background:var(--orange-dark);color:#fff!important}
+.nav-phone{color:rgba(255,255,255,.6)!important;font-size:.8rem}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}.hamburger span{width:24px;height:2px;background:var(--white);transition:var(--transition)}
+.mobile-menu{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(17,17,17,.98);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:24px}
+.mobile-menu.active{display:flex}.mobile-menu a{color:var(--white);font-size:1.2rem;font-weight:500}.mobile-close{position:absolute;top:20px;right:24px;background:none;border:none;color:var(--white);font-size:2rem;cursor:pointer}
+
+.error-section{background:linear-gradient(135deg,#0a0a0a 0%,#1a1a1a 50%,#111 100%);flex:1;display:flex;align-items:center;justify-content:center;padding:140px 0 80px;text-align:center;position:relative;overflow:hidden}
+.error-section::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(255,178,62,.06) 0%,transparent 70%);border-radius:50%}
+.error-section::after{content:'';position:absolute;bottom:-20%;left:-10%;width:400px;height:400px;background:radial-gradient(circle,rgba(255,178,62,.04) 0%,transparent 70%);border-radius:50%}
+.error-number{font-family:'Bebas Neue',sans-serif;font-size:clamp(8rem,20vw,14rem);color:var(--orange);line-height:1;opacity:.15;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;user-select:none;white-space:nowrap}
+.error-content{position:relative;z-index:2}
+.error-content h1{font-size:clamp(2.2rem,5vw,3.5rem);color:var(--white);margin-bottom:16px}
+.error-content h1 span{color:var(--orange)}
+.error-content p{color:rgba(255,255,255,.6);font-size:1.1rem;max-width:520px;margin:0 auto 36px;line-height:1.7}
+.error-ctas{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+
+.quick-links{background:var(--off-white);padding:60px 0}
+.quick-links-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;max-width:800px;margin:0 auto}
+.quick-link-card{background:var(--white);border:1px solid #eee;border-radius:var(--radius);padding:24px;text-align:center;transition:var(--transition)}
+.quick-link-card:hover{border-color:rgba(255,178,62,.3);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.06)}
+.quick-link-card .icon{font-size:2rem;margin-bottom:12px;display:block}
+.quick-link-card h3{font-family:'Bebas Neue',sans-serif;font-size:1.2rem;margin-bottom:8px;color:var(--dark)}
+.quick-link-card p{font-size:.85rem;color:var(--text-light)}
+
+footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.footer-brand p{font-size:.9rem;line-height:1.6;max-width:280px}
+.footer-col h4{color:var(--white);font-size:1.1rem;margin-bottom:16px;font-family:'Bebas Neue',sans-serif;letter-spacing:.04em}
+.footer-col a{display:block;color:rgba(255,255,255,.5);font-size:.9rem;padding:4px 0;transition:var(--transition)}.footer-col a:hover{color:var(--orange)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;justify-content:space-between;align-items:center;font-size:.8rem}
+.footer-legal{display:flex;gap:20px}.footer-legal a{color:rgba(255,255,255,.4);font-size:.75rem}.footer-legal a:hover{color:var(--orange)}
+
+@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.quick-links-grid{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}.footer-bottom{flex-direction:column;gap:12px;text-align:center}.feature-card,.stat-card,.step,.plan-card,.channel-card,.cta-card{padding:20px}}
+@media(max-width:480px){.quick-links-grid{grid-template-columns:1fr}.error-ctas{flex-direction:column;align-items:center}}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav id="navbar" class="scrolled">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">ARVANI <span>MEDIA</span></a>
+        <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="arvani-pro.html">Arvani Pro</a>
+      <a href="services.html#scorecard">Scorecard</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="tel:5088154211" class="nav-phone">508-815-4211</a>
+      <a href="#free-leads" class="nav-cta">Claim 25 Free Leads &rarr;</a>
+    </div>
+    <button class="hamburger" onclick="toggleMobile()" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" onclick="toggleMobile()">&times;</button>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="arvani-pro.html">Arvani Pro</a>
+  <a href="services.html#scorecard">Scorecard</a>
+  <a href="blog.html">Blog</a>
+  <a href="about.html">About</a>
+  <a href="tel:5088154211">508-815-4211</a>
+  <a href="#free-leads" class="nav-cta">Claim 25 Free Leads &rarr;</a>
+</div>
+
+<!-- 404 HERO -->
+<section class="error-section">
+  <div class="error-number">404</div>
+  <div class="container">
+    <div class="error-content">
+      <h1>Page <span>Not Found</span></h1>
+      <p>Looks like this page took a wrong turn. The URL may have changed, been removed, or never existed. Let's get you back on track.</p>
+      <div class="error-ctas">
+        <a href="index.html" class="btn btn-primary">Back to Homepage &rarr;</a>
+        <a href="services.html" class="btn btn-outline">View Our Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK LINKS -->
+<section class="quick-links">
+  <div class="container">
+    <h2 style="text-align:center;font-size:1.8rem;margin-bottom:32px;color:var(--dark)">Where Would You Like To Go?</h2>
+    <div class="quick-links-grid">
+      <a href="services.html" class="quick-link-card">
+        <span class="icon">&#128196;</span>
+        <h3>Services</h3>
+        <p>Cold email, LinkedIn outreach &amp; AI automations</p>
+      </a>
+      <a href="index.html#free-leads" class="quick-link-card">
+        <span class="icon">&#127381;</span>
+        <h3>25 Free Leads</h3>
+        <p>Claim your free ICP-matched lead list</p>
+      </a>
+      <a href="blog.html" class="quick-link-card">
+        <span class="icon">&#128221;</span>
+        <h3>Blog</h3>
+        <p>Cold email guides, tips &amp; strategies</p>
+      </a>
+      <a href="calendar.html" class="quick-link-card">
+        <span class="icon">&#128197;</span>
+        <h3>Book a Call</h3>
+        <p>Talk to a B2B outbound strategist</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo">ARVANI <span>MEDIA</span></a>
+        <p>Done-for-you cold email outreach for B2B companies. We build the system, run the campaigns, and deliver qualified meetings.</p>
+      </div>
+      <div class="footer-col"><h4>Pages</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="arvani-pro.html">Arvani Pro</a><a href="services.html#scorecard">Scorecard</a><a href="blog.html">Blog</a><a href="about.html">About</a></div>
+      <div class="footer-col">
+  <h4>Resources</h4>
+  <a href="blog/cold-email-deliverability.html">Deliverability Checklist</a>
+  <a href="services.html#scorecard">Scorecard</a>
+  <a href="blog.html">Blog</a>
+  <a href="index.html#free-leads">25 Free Leads</a>
+</div>
+      <div class="footer-col"><h4>Contact</h4><a href="tel:5088154211">508-815-4211</a><a href="mailto:anthony@arvani-media.com">anthony@arvani-media.com</a></div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Arvani Media. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const navbar=document.getElementById('navbar');window.addEventListener('scroll',()=>{navbar.classList.toggle('scrolled',window.scrollY>50)});
+function toggleMobile(){document.getElementById('mobileMenu').classList.toggle('active');document.body.style.overflow=document.getElementById('mobileMenu').classList.contains('active')?'hidden':''}
+</script>
+<!-- LeadConnector Chat Widget -->
+<div data-chat-widget data-widget-id="6683af93c5fec6523335a4bd" data-location-id="qCoahhXWL17boy39Y0kd"></div>
+<script src="https://beta.leadconnectorhq.com/loader.js" data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6683af93c5fec6523335a4bd"></script>
+</body>
+</html>

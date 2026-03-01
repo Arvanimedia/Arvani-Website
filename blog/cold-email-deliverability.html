@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cold Email Deliverability Checklist (2026) | Arvani Media</title>
+<meta name="description" content="15-point cold email deliverability checklist. Audit your DNS, warmup, sending volume, list hygiene, and content in under 10 minutes.">
+<meta name="keywords" content="cold email deliverability checklist, email deliverability 2026, inbox placement">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://arvani-media.com/blog/cold-email-deliverability">
+<meta property="og:title" content="Cold Email Deliverability Checklist (2026) | Arvani Media">
+<meta property="og:description" content="15-point cold email deliverability checklist. Audit your DNS, warmup, sending volume, list hygiene, and content in under 10 minutes.">
+<meta property="og:image" content="https://arvani-media.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Arvani Media — Done-For-You B2B Outbound">
+<meta name="twitter:image" content="https://arvani-media.com/og-image.png">
+<meta property="og:url" content="https://arvani-media.com/blog/cold-email-deliverability">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Arvani Media">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cold Email Deliverability Checklist (2026) | Arvani Media">
+<meta name="twitter:description" content="15-point cold email deliverability checklist. Audit your DNS, warmup, sending volume, list hygiene, and content in under 10 minutes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Arvani Media",
+  "url": "https://arvani-media.com",
+  "logo": "https://arvani-media.com/logo.png",
+  "description": "Done-for-you cold email agency specializing in B2B lead generation.",
+  "telephone": "+1-508-815-4211",
+  "email": "anthony@arvani-media.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "US"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Anthony Volz"
+  },
+  "sameAs": []
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Complete Cold Email Deliverability Checklist (2026)",
+  "description": "15-point cold email deliverability checklist. Audit your DNS, warmup, sending volume, list hygiene, and content in under 10 minutes.",
+  "author": {
+    "@type": "Organization",
+    "name": "Arvani Media",
+    "url": "https://arvani-media.com"
+  },
+  "editor": "Anthony Volz",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Arvani Media",
+    "url": "https://arvani-media.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://arvani-media.com/logo.png"
+    }
+  },
+  "datePublished":"2025-12-26",
+  "dateModified":"2025-12-26",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://arvani-media.com/blog/cold-email-deliverability"
+  },
+  "keywords": ["cold email deliverability checklist", "cold email deliverability", "email deliverability", "SPF DKIM DMARC", "cold email warmup", "email list hygiene"]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to fix cold email deliverability issues?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DNS authentication (SPF, DKIM, DMARC) can be configured in under an hour and propagates within 24-48 hours. Domain warmup takes 2-3 weeks. Repairing a damaged sending reputation can take 2-4 weeks of reduced volume and consistent warmup activity. Most setups can be fully audit-ready within 30 days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good inbox placement rate for cold email?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A healthy cold email program should target an inbox placement rate of 85% or higher. If you are below 70%, there are likely DNS, reputation, or content issues that need immediate attention. Use tools like GlockApps or Mail-Tester to test inbox placement across Gmail, Outlook, and Yahoo before launching campaigns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need separate domains for cold email outreach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You should never send cold email from your primary business domain. If your cold outreach triggers spam complaints or blacklisting, it can damage the reputation of your main domain and affect all company email — including transactional and internal communications. Use dedicated secondary domains (e.g., yourbrand-mail.com or getyourbrand.com) and warm them for 2-3 weeks before sending any outbound campaigns."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://arvani-media.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://arvani-media.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Cold Email Deliverability Checklist",
+      "item": "https://arvani-media.com/blog/cold-email-deliverability"
+    }
+  ]
+}
+</script>
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--orange:#ffb23e;--orange-dark:#e69a2e;--orange-glow:rgba(255,178,62,.15);--grey:#5e5e5e;--dark:#111;--dark-card:#1a1a1a;--white:#fff;--off-white:#f8f8f8;--text:#333;--text-light:#666;--radius:12px;--radius-sm:8px;--shadow:0 4px 24px rgba(0,0,0,.08);--max-w:1200px;--transition:all .3s ease}
+html{scroll-behavior:smooth}body{font-family:'Instrument Sans',system-ui,sans-serif;color:var(--text);background:var(--white);line-height:1.6;overflow-x:hidden}
+h1,h2,h3,h4{font-family:'Bebas Neue',system-ui,sans-serif;line-height:1.1;letter-spacing:.02em}a{text-decoration:none;color:inherit}ul{list-style:none}
+.container{max-width:var(--max-w);margin:0 auto;padding:0 24px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:50px;font-family:'Instrument Sans',sans-serif;font-weight:600;font-size:1rem;cursor:pointer;border:none;transition:var(--transition)}
+.btn-primary{background:var(--orange);color:#fff;box-shadow:0 4px 16px rgba(255,178,62,.3)}.btn-primary:hover{background:var(--orange-dark);transform:translateY(-2px)}
+.btn-outline{background:transparent;color:var(--white);border:2px solid rgba(255,255,255,.3)}.btn-outline:hover{border-color:var(--orange);color:var(--orange)}
+.btn-dark{background:var(--dark);color:var(--white)}.btn-dark:hover{background:#222;transform:translateY(-2px)}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 0;transition:var(--transition)}
+nav.scrolled{background:rgba(17,17,17,.97);backdrop-filter:blur(12px);padding:10px 0;box-shadow:0 2px 20px rgba(0,0,0,.3)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;max-width:var(--max-w);margin:0 auto;padding:0 24px}
+.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;color:var(--white);letter-spacing:.05em}.nav-logo span{color:var(--orange)}
+.nav-links{display:flex;align-items:center;gap:28px}.nav-links a{color:rgba(255,255,255,.8);font-size:.9rem;font-weight:500;transition:var(--transition)}.nav-links a:hover{color:var(--orange)}
+.nav-cta{background:var(--orange);color:#fff!important;padding:10px 22px;border-radius:50px;font-weight:600;font-size:.85rem}.nav-cta:hover{background:var(--orange-dark);color:#fff!important}
+.nav-phone{color:rgba(255,255,255,.6)!important;font-size:.8rem}
+.nav-dropdown:hover .hero .container{max-width:880px}
+.hero-meta{display:flex;align-items:center;gap:16px;color:rgba(255,255,255,.5);font-size:.9rem;margin-bottom:24px;flex-wrap:wrap}
+.hero-meta .tag{background:rgba(255,178,62,.15);color:var(--orange);font-size:.75rem;font-weight:600;padding:4px 14px;border-radius:50px;text-transform:uppercase;letter-spacing:.04em}
+.hero-sub,.hero>p{color:rgba(255,255,255,.65);font-size:1.1rem;max-width:640px;line-height:1.7}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}.hamburger span{width:24px;height:2px;background:var(--white);transition:var(--transition)}
+.mobile-menu{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(17,17,17,.98);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:24px}
+.mobile-menu.active{display:flex}.mobile-menu a{color:var(--white);font-size:1.2rem;font-weight:500}.mobile-close{position:absolute;top:20px;right:24px;background:none;border:none;color:var(--white);font-size:2rem;cursor:pointer}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,#0a0a0a 0%,#1a1a1a 50%,#111 100%);padding:160px 0 80px;text-align:center;position:relative;overflow:hidden}
+.hero h1{font-size:clamp(2.4rem,5vw,3.6rem);color:var(--white);margin-bottom:16px;max-width:800px;margin-left:auto;margin-right:auto}.hero h1 span{color:var(--orange)}
+.hero .subtitle{color:rgba(255,255,255,.7);font-size:1.1rem;max-width:600px;margin:0 auto 24px;line-height:1.7}
+.hero .meta-line{color:rgba(255,255,255,.5);font-size:.9rem}
+.hero .meta-line a{color:var(--orange);font-weight:500}
+.breadcrumb{color:rgba(255,255,255,.4);font-size:.85rem;margin-bottom:24px}.breadcrumb a{color:rgba(255,255,255,.5)}.breadcrumb a:hover{color:var(--orange)}
+
+/* ARTICLE LAYOUT */
+.article-wrapper{max-width:720px;margin:0 auto;padding:60px 24px 40px}
+
+/* TOC */
+.toc{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:24px 28px;margin-top:32px}
+.toc h3{color:var(--white);font-size:1.1rem;margin-bottom:14px;font-family:'Instrument Sans',sans-serif;font-weight:700}
+.toc ol{list-style:decimal;padding-left:20px;display:grid;grid-template-columns:1fr 1fr;gap:6px 32px}
+.toc li{color:rgba(255,255,255,.5);font-size:.88rem;padding:3px 0}
+.toc a{color:rgba(255,255,255,.65);transition:var(--transition)}.toc a:hover{color:var(--orange)}
+
+/* ARTICLE BODY */
+.article-body h2{font-size:clamp(1.6rem,3vw,2rem);color:var(--dark);margin:48px 0 24px;padding-bottom:12px;border-bottom:2px solid var(--orange)}
+.article-body h2 .section-num{color:var(--orange);margin-right:4px}
+.article-body p{font-size:1.05rem;line-height:1.75;color:var(--text);margin-bottom:20px}
+.article-body strong{color:var(--dark)}
+.article-body a{color:var(--orange);font-weight:500;text-decoration:underline;text-decoration-color:rgba(255,178,62,.3);text-underline-offset:3px;transition:var(--transition)}
+.article-body a:hover{text-decoration-color:var(--orange)}
+
+/* CHECKLIST ITEM */
+.checklist-item{background:var(--white);border:1px solid #eee;border-radius:var(--radius);padding:28px 28px 28px 80px;margin-bottom:20px;position:relative;transition:var(--transition)}
+.checklist-item:hover{border-color:rgba(255,178,62,.3);box-shadow:0 2px 16px rgba(0,0,0,.04)}
+.checklist-item .item-number{position:absolute;left:24px;top:28px;width:40px;height:40px;border-radius:50%;background:var(--orange);color:var(--dark);font-family:'Bebas Neue',sans-serif;font-size:1.2rem;display:flex;align-items:center;justify-content:center;font-weight:700}
+.checklist-item h3{font-family:'Instrument Sans',sans-serif;font-size:1.15rem;font-weight:700;color:var(--dark);margin-bottom:8px;line-height:1.3}
+.checklist-item p{font-size:.95rem;line-height:1.7;color:var(--text-light);margin-bottom:0}
+.checklist-item p+p{margin-top:12px}
+.checklist-item .check-label{display:inline-block;background:var(--orange-glow);color:var(--orange-dark);font-size:.75rem;font-weight:600;padding:3px 12px;border-radius:50px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:10px}
+
+/* MID CTA */
+.mid-cta{background:linear-gradient(135deg,#1a1a1a,#111);border-radius:var(--radius);padding:40px;margin:48px 0;text-align:center}
+.mid-cta a.btn-primary{color:#111!important;font-weight:700}
+.mid-cta h3{font-size:1.6rem;color:var(--white);margin-bottom:10px}.mid-cta h3 span{color:var(--orange)}
+.mid-cta p{color:rgba(255,255,255,.6);font-size:.95rem;margin-bottom:20px}
+
+/* FAQ */
+.faq-section{margin-top:56px;padding-top:48px;border-top:1px solid #eee}
+.faq-section h2{font-size:clamp(1.6rem,3vw,2rem);color:var(--dark);margin-bottom:28px;text-align:center}
+.faq-item{border:1px solid #eee;border-radius:var(--radius-sm);margin-bottom:12px;overflow:hidden}
+.faq-q{padding:20px 24px;font-weight:600;color:var(--dark);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:1rem;background:var(--off-white);transition:var(--transition)}
+.faq-q:hover{color:var(--orange)}
+.faq-q::after{content:'+';font-size:1.4rem;color:var(--orange);font-weight:300;flex-shrink:0;transition:var(--transition)}
+.faq-item.open .faq-q::after{content:'\2212'}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.faq-item.open .faq-a{max-height:400px}
+.faq-a p{padding:0 24px 20px;font-size:.95rem;line-height:1.7;color:var(--text-light)}
+
+/* RELATED ARTICLES */
+.related-section{padding:80px 0;background:var(--off-white)}
+.related-section .section-header{text-align:center;margin-bottom:40px}
+.related-section .section-header h2{font-size:clamp(1.8rem,3.5vw,2.4rem);color:var(--dark)}.related-section .section-header h2 span{color:var(--orange)}
+.related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;max-width:var(--max-w);margin:0 auto;padding:0 24px}
+.related-card{background:var(--white);border:1px solid #eee;border-radius:var(--radius);overflow:hidden;transition:var(--transition);display:flex;flex-direction:column}
+.related-card:hover{box-shadow:var(--shadow);transform:translateY(-4px)}
+.related-card-img{height:140px;background:linear-gradient(135deg,var(--dark),#2a2a2a);display:flex;align-items:center;justify-content:center;font-size:2.4rem}
+.related-card-body{padding:20px;flex:1;display:flex;flex-direction:column}
+.related-card .blog-tag{display:inline-block;background:var(--orange-glow);color:var(--orange-dark);font-size:.7rem;font-weight:600;padding:3px 12px;border-radius:50px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:10px;align-self:flex-start}
+.related-card h3{font-family:'Instrument Sans',sans-serif;font-weight:700;font-size:1rem;color:var(--dark);margin-bottom:10px;line-height:1.3;flex:1}
+.related-card .read-link{color:var(--orange);font-weight:600;font-size:.85rem;display:inline-flex;align-items:center;gap:6px}.related-card .read-link:hover{gap:10px}
+
+/* CTA BANNER */
+.cta-banner{background:linear-gradient(135deg,#1a1a1a,#111);padding:80px 0;text-align:center}
+.cta-banner h2{font-size:clamp(2rem,4vw,3rem);color:var(--white);margin-bottom:16px}.cta-banner h2 span{color:var(--orange)}
+.cta-banner p{color:rgba(255,255,255,.6);font-size:1.05rem;margin-bottom:32px;max-width:500px;margin-left:auto;margin-right:auto}
+
+/* FOOTER */
+footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.footer-brand p{font-size:.9rem;line-height:1.6;max-width:280px}
+.footer-col h4{color:var(--white);font-size:1.1rem;margin-bottom:16px;font-family:'Bebas Neue',sans-serif;letter-spacing:.04em}
+.footer-col a{display:block;color:rgba(255,255,255,.5);font-size:.9rem;padding:4px 0;transition:var(--transition)}.footer-col a:hover{color:var(--orange)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;justify-content:space-between;align-items:center;font-size:.8rem}
+
+.sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--dark);padding:12px 16px;z-index:998;box-shadow:0 -4px 20px rgba(0,0,0,.3);border-top:1px solid rgba(255,255,255,.06)}
+.sticky-cta .btn{width:100%;justify-content:center;padding:14px;font-size:1rem}
+
+@media(max-width:1024px){.related-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.related-grid{grid-template-columns:1fr}.hero{padding:120px 0 60px}.article-wrapper{padding:40px 20px 30px}.checklist-item{padding:24px 20px 24px 68px}.checklist-item .item-number{left:16px;top:24px;width:36px;height:36px;font-size:1.1rem}.toc{padding:20px 24px}.mid-cta{padding:32px 24px}.sticky-cta{display:block}body{padding-bottom:70px}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:8px;text-align:center}.feature-card,.stat-card,.step,.plan-card,.channel-card,.cta-card{padding:20px}}
+@media(max-width:480px){
+  .hero{padding:90px 0 40px}
+  .section{padding:40px 0}
+  .container{padding:0 16px}
+  .plan-price,.stat-number{font-size:2rem}
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">ARVANI <span>MEDIA</span></a>
+        <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../services.html">Services</a>
+      <a href="../arvani-pro.html">Arvani Pro</a>
+      <a href="../services.html#scorecard">Scorecard</a>
+      <a href="../blog.html">Blog</a>
+      <a href="../about.html">About</a>
+      <a href="tel:5088154211" class="nav-phone">508-815-4211</a>
+      <a href="../index.html#free-leads" class="nav-cta">Claim 25 Free Leads &rarr;</a>
+    </div>
+    <button class="hamburger" onclick="toggleMobile()" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" onclick="toggleMobile()">&times;</button>
+  <a href="../index.html">Home</a>
+  <a href="../services.html">Services</a>
+  <a href="../arvani-pro.html">Arvani Pro</a>
+  <a href="../services.html#scorecard">Scorecard</a>
+  <a href="../blog.html">Blog</a>
+  <a href="../about.html">About</a>
+  <a href="tel:5088154211">508-815-4211</a>
+  <a href="../index.html#free-leads" class="nav-cta">Claim 25 Free Leads &rarr;</a>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; <a href="../blog.html">Blog</a> &rsaquo; Deliverability Checklist</div>
+    <div class="hero-meta">
+      <span class="tag">Deliverability</span>
+      <span>By Arvani Media &middot; Edited by Anthony Volz</span>
+      <span>&middot;</span>
+      <span>December 26, 2025</span>
+      <span>&middot;</span>
+      <span>8 min read</span>
+    </div>
+    <h1>The Complete Cold Email <span>Deliverability Checklist</span></h1>
+    <p class="hero-sub">Cold email deliverability is the single biggest factor that determines whether your outbound campaigns generate pipeline or waste money. You can write the best copy in the world, but if your emails land in spam, nobody reads them.</p>
+    <div class="toc">
+      <h3>Table of Contents</h3>
+      <ol>
+        <li><a href="#dns">DNS &amp; Authentication</a></li>
+        <li><a href="#warmup">Warmup &amp; Reputation</a></li>
+        <li><a href="#list">List Quality</a></li>
+        <li><a href="#sending">Sending Practices</a></li>
+        <li><a href="#content">Content &amp; Compliance</a></li>
+        <li><a href="#faq">Frequently Asked Questions</a></li>
+      </ol>
+    </div>
+    <img src="covers/cold-email-deliverability-cover.svg" alt="The Complete Cold Email Deliverability Checklist" style="width:100%;max-width:880px;border-radius:12px;margin-top:28px;display:block">
+  </div>
+</header>
+
+<!-- ARTICLE -->
+<article>
+  <div class="article-wrapper">
+
+    <div class="article-body">
+
+      <p>The problem is that deliverability is not one thing. It is a system of overlapping technical configurations, behavioral signals, and content decisions that mailbox providers evaluate in real time. Miss one piece and your inbox placement drops. Miss several and you are effectively blacklisted.</p>
+
+      <p>This cold email deliverability checklist covers every layer of that system. We use it internally at <a href="../services.html">Arvani Media</a> to audit client setups before launching any campaign. Whether you run cold email in-house or work with an agency, this is the baseline you need to get right.</p>
+
+      <p>Work through all 15 items. If you can check every box, your infrastructure is solid. If you cannot, you have found the gaps that are costing you meetings.</p>
+
+      <!-- SECTION 1: DNS -->
+      <h2 id="dns"><span class="section-num">I.</span> DNS &amp; Authentication</h2>
+
+      <p>DNS authentication is the foundation of email deliverability. These records tell receiving mail servers that you are who you claim to be. Without them, Gmail, Outlook, and every other provider will treat your messages as potentially spoofed and route them to spam or reject them outright.</p>
+
+      <div class="checklist-item">
+        <div class="item-number">1</div>
+        <span class="check-label">Required</span>
+        <h3>SPF Record Configured</h3>
+        <p><strong>What it is:</strong> Sender Policy Framework (SPF) is a DNS TXT record that lists every server and service authorized to send email on behalf of your domain. When a receiving server gets your message, it checks your SPF record to verify the sending IP is permitted.</p>
+        <p><strong>Why it matters:</strong> Without SPF, any server in the world could send email pretending to be your domain. Mailbox providers see missing or broken SPF as a major red flag. Gmail specifically requires SPF or DKIM to pass for messages to reach the inbox.</p>
+        <p><strong>How to check and fix:</strong> Look up your domain on MXToolbox or use <code>dig TXT yourdomain.com</code> in the terminal. You should see a record starting with <code>v=spf1</code> that includes your email sending service (e.g., <code>include:_spf.google.com</code> for Google Workspace). Make sure you have only one SPF record per domain. Multiple SPF records will cause authentication failures. If you use multiple sending services, combine them into a single record with multiple <code>include:</code> statements and end with <code>~all</code> or <code>-all</code>.</p>
+      </div>
+
+      <div class="checklist-item">
+        <div class="item-number">2</div>
+        <span class="check-label">Required</span>
+        <h3>DKIM Signing Enabled</h3>
+        <p><strong>What it is:</strong> DomainKeys Identified Mail (DKIM) adds a cryptographic signature to every email you send. The receiving server uses the public key published in your DNS to verify the message was not altered in transit and actually came from your domain.</p>
+        <p><strong>Why it matters:</strong> DKIM is the strongest signal of email authenticity. Google, Microsoft, and Yahoo all weight DKIM heavily in their spam filtering decisions. If DKIM fails or is missing, your emails are far more likely to land in spam, even if SPF passes.</p>
+        <p><strong>How to check and fix:</strong> In Google Workspace, go to Admin &gt; Apps &gt; Google Workspace &gt; Gmail &gt; Authenticate Email, then generate a DKIM key and add the provided CNAME or TXT record to your DNS. For third-party sending tools like Instantly or Smartlead, follow their DKIM setup guides, which typically involve adding one or two CNAME records. Verify with MXToolbox DKIM Lookup using the selector provided by your sending platform.</p>
+      </div>
+
+      <div class="checklist-item">
+        <div class="item-number">3</div>
+        <span class="check-label">Required</span>
+        <h3>DMARC Policy Published</h3>
+        <p><strong>What it is:</strong> Domain-based Message Authentication, Reporting, and Conformance (DMARC) ties SPF and DKIM together. It tells receiving servers what to do when authentication fails: do nothing (<code>p=none</code>), quarantine the message (<code>p=quarantine</code>), or reject it entirely (<code>p=reject</code>). It also sends you reports about authentication results.</p>
+        <p><strong>Why it matters:</strong> As of February 2024, Google and Yahoo require DMARC for bulk senders. Even for low-volume cold email, having a DMARC record signals that you take email security seriously. Without it, you are leaving deliverability on the table.</p>
+        <p><strong>How to check and fix:</strong> Add a DNS TXT record for <code>_dmarc.yourdomain.com</code> with a value like <code>v=DMARC1; p=none; rua=mailto:dmarc-reports@yourdomain.com</code>. Start with <code>p=none</code> to monitor without impacting delivery, then move to <code>p=quarantine</code> once you confirm SPF and DKIM are passing consistently. Use a free tool like DMARC Analyzer to read the XML reports and identify any unauthorized senders.</p>
+      </div>
+
+      <div class="checklist-item">
+        <div class="item-number">4</div>
+        <span class="check-label">Critical</span>
+        <h3>Dedicated Sending Domains (Not Your Primary)</h3>
+        <p><strong>What it is:</strong> Dedicated sending domains are separate domains used exclusively for cold outbound email. Instead of sending from yourbrand.com, you send from variations like yourbrand-mail.com, getyourbrand.com, or tryyourbrand.com.</p>
+        <p><strong>Why it matters:</strong> Cold email carries inherent reputation risk. Spam complaints, bounces, and blacklistings happen even with good practices. If your cold email activity damages the reputation of your primary domain, it affects every email your company sends, including invoices, customer support, and internal communication. Dedicated domains isolate that risk completely.</p>
+        <p><strong>How to check and fix:</strong> Purchase 2-5 secondary domains that are close variations of your brand name. Set up Google Workspace or Microsoft 365 accounts on each one. Configure SPF, DKIM, and DMARC on every domain. Do not use these domains for anything other than outbound campaigns. If a domain gets burned, you retire it and rotate in a new one without touching your primary domain. For more on how this fits into a full system, see our <a href="../services.html">done-for-you cold email service</a>.</p>
+      </div>
+
+      <!-- SECTION 2: WARMUP -->
+      <h2 id="warmup"><span class="section-num">II.</span> Warmup &amp; Reputation</h2>
+
+      <p>A brand-new domain with perfect DNS records still has zero reputation. Mailbox providers do not know if you are a legitimate sender or a spammer. Warmup is the process of building that trust before you start real outbound campaigns. Skip it and your first campaign will tank.</p>
+
+      <div class="checklist-item">
+        <div class="item-number">5</div>
+        <span class="check-label">Critical</span>
+        <h3>New Domains Warmed 2-3 Weeks Before Sending</h3>
+        <p><strong>What it is:</strong> Domain warmup uses automated tools to exchange emails between your new mailbox and a network of real inboxes. These tools send, receive, open, and reply to messages, simulating the behavior of a healthy, active email account.</p>
+        <p><strong>Why it matters:</strong> Google and Microsoft track sending patterns from the moment a domain starts sending. If a brand-new domain immediately sends 50 cold emails on day one, that is a massive spam signal. Warmup builds a baseline of positive engagement so that when you start cold outreach, the mailbox providers already recognize your domain as legitimate.</p>
+        <p><strong>How to check and fix:</strong> Use a warmup tool like Instantly's built-in warmup, Warmup Inbox, or Lemwarm. Set it to send 20-40 warmup emails per day and let it run for a minimum of 14 days, ideally 21 days, before adding any cold outbound volume. Monitor your warmup inbox placement score. You want to see 90%+ inbox placement before launching campaigns.</p>
+      </div>
+
+      <div class="checklist-item">
+        <div class="item-number">6</div>
+        <span class="check-label">Important</span>
+        <h3>Gradual Volume Ramp-Up</h3>
+        <p><strong>What it is:</strong> Rather than sending your full daily volume on day one of a campaign, you start low and increase gradually. For example: 5 emails on day one, 10 on day two, 15 on day three, and so on until you reach your target volume over 7-14 days.</p>
+        <p><strong>Why it matters:</strong> Sudden spikes in sending volume are one of the most common triggers for spam filtering. Even warmed domains can get flagged if you jump from 0 cold emails to 50 overnight. Gradual ramp-up mimics natural sending behavior and gives mailbox providers time to evaluate your messages without alarm.</p>
+        <p><strong>How to check and fix:</strong> Most cold email platforms (Instantly, Smartlead, Lemlist) have built-in ramp-up settings. Configure a daily increase of 2-5 emails per day per mailbox. If you are sending from 10 mailboxes and want to reach 30 emails per mailbox per day, plan for roughly 7-10 days of ramp-up before hitting full volume. Never exceed 50 cold emails per mailbox per day as a hard ceiling.</p>
+      </div>
+
+      <div class="checklist-item">
+        <div class="item-number">7</div>
+        <span class="check-label">Important</span>
+        <h3>Ongoing Warmup Between Campaigns</h3>
+        <p><strong>What it is:</strong> Warmup is not a one-time setup task. You should keep warmup activity running in the background at all times, even while your cold campaigns are active, and especially during gaps between campaigns.</p>
+        <p><strong>Why it matters:</strong> If you stop all sending activity for a week and then resume cold outreach, mailbox providers see that sudden restart as suspicious. Ongoing warmup maintains a consistent pattern of positive engagement that buffers your sending reputation. It also offsets the negative signals (bounces, ignores, spam reports) that inevitably come from cold outreach.</p>
+        <p><strong>How to check and fix:</strong> Keep your warmup tool active at 15-30 emails per day per mailbox alongside your cold campaigns. When you pause campaigns for any reason, do not turn off warmup. If you discover that your <a href="cold-email-spam-fix.html">cold emails are landing in spam</a>, temporarily reduce cold volume and increase warmup volume to repair your reputation before resuming.</p>
+      </div>
+
+      <!-- SECTION 3: LIST QUALITY -->
+      <h2 id="list"><span class="section-num">III.</span> List Quality</h2>
+
+      <p>Your sending infrastructure can be perfect and your reputation spotless, but if you are emailing invalid addresses, your bounce rate will destroy your deliverability within days. List quality is not optional. It is load-bearing.</p>
+
+      <div class="checklist-item">
+        <div class="item-number">8</div>
+        <span class="check-label">Critical</span>
+        <h3>Emails Verified for Deliverability</h3>
+        <p><strong>What it is:</strong> Email verification uses SMTP-level checks to determine whether an email address is valid, invalid, or risky before you send to it. Verification tools ping the receiving mail server (without sending an actual email) to confirm the mailbox exists and can accept messages.</p>
+        <p><strong>Why it matters:</strong> Sending to invalid addresses generates hard bounces. A hard bounce rate above 2% is a clear spam signal to mailbox providers. Hit 5% and you risk getting your domain or IP blacklisted. Verification catches invalid addresses before they damage your reputation.</p>
+        <p><strong>How to check and fix:</strong> Run every lead list through a verification tool like ZeroBounce, NeverBounce, or MillionVerifier before uploading to your sending platform. Only send to addresses marked as "valid" or "deliverable." Remove all "invalid," "unknown," and "disposable" results. If you are <a href="build-b2b-lead-list.html">building B2B lead lists</a>, verification should be the final step before any list goes live. At Arvani Media, we triple-verify every lead across multiple providers to keep bounce rates under 1%.</p>
+      </div>
+
+      <div class="checklist-item">
+        <div class="item-number">9</div>
+        <span class="check-label">Important</span>
+        <h3>Catch-All Addresses Removed or Limited</h3>
+        <p><strong>What it is:</strong> A catch-all domain is configured to accept email sent to any address at that domain, whether the specific mailbox exists or not. Verification tools cannot determine if a specific address at a catch-all domain is real, so they return a "catch-all" or "accept-all" result instead of "valid."</p>
+        <p><strong>Why it matters:</strong> Catch-all addresses are a gamble. Some are real people. Others are nonexistent mailboxes that will bounce, or worse, spam traps set up specifically to identify cold emailers. Sending to a high volume of catch-all addresses inflates your bounce rate and puts you at risk of hitting spam traps.</p>
+        <p><strong>How to check and fix:</strong> After verification, filter your list to see how many results came back as "catch-all." If catch-all addresses make up more than 20-30% of your list, you are taking on significant risk. You have two options: remove them entirely for maximum safety, or limit them to 10-15% of your total sending volume and monitor bounce rates closely. If bounces spike, remove the remaining catch-alls immediately.</p>
+      </div>
+
+      <div class="checklist-item">
+        <div class="item-number">10</div>
+        <span class="check-label">Required</span>
+        <h3>Bounce Rate Under 2%</h3>
+        <p><strong>What it is:</strong> Your bounce rate is the percentage of emails that are returned as undeliverable by the receiving server. Hard bounces (permanent failures, such as "mailbox does not exist") are far more damaging than soft bounces (temporary issues, such as "mailbox full").</p>
+        <p><strong>Why it matters:</strong> Mailbox providers use bounce rate as a direct measure of list quality and sender legitimacy. A bounce rate under 2% signals that you are sending to verified, real people. Anything above 3% starts triggering warnings. Above 5% and your sending reputation will deteriorate rapidly, often within a single campaign.</p>
+        <p><strong>How to check and fix:</strong> Check your bounce rate in your cold email platform's analytics dashboard after each campaign. If you are above 2%, stop the campaign immediately. Re-verify your remaining list, remove all bounced addresses, and investigate whether your verification provider is catching enough invalid addresses. Consider switching to a more accurate verification tool or adding a second verification layer. At the start of every new campaign, monitor the first 100-200 sends closely before scaling volume.</p>
+      </div>
+
+      <!-- MID-ARTICLE CTA -->
+      <div class="mid-cta">
+        <h3>Want Us to <span>Audit Your Setup?</span></h3>
+        <p>Take the Outbound Readiness Scorecard. Answer 10 questions and get a personalized action plan in minutes.</p>
+        <a href="../services.html#scorecard" class="btn btn-primary">Take the Scorecard &rarr;</a>
+      </div>
+
+      <!-- SECTION 4: SENDING PRACTICES -->
+      <h2 id="sending"><span class="section-num">IV.</span> Sending Practices</h2>
+
+      <p>Even with perfect infrastructure and a clean list, how you send matters. Mailbox providers analyze your sending patterns, volume, and timing to determine whether you are behaving like a legitimate sender or a spammer. This is where most teams slip up after getting the technical foundation right.</p>
+
+      <div class="checklist-item">
+        <div class="item-number">11</div>
+        <span class="check-label">Critical</span>
+        <h3>Sending Volume Within Safe Limits</h3>
+        <p><strong>What it is:</strong> Safe sending limits refer to the maximum number of cold emails you should send per mailbox per day. The exact number depends on your mailbox provider, domain age, and warmup status, but there are widely accepted ceilings.</p>
+        <p><strong>Why it matters:</strong> Exceeding safe volume limits is the fastest way to trigger rate limiting or spam filtering from Google and Microsoft. A single mailbox sending 100+ cold emails per day will almost certainly be flagged, regardless of how good your authentication and content are.</p>
+        <p><strong>How to check and fix:</strong> For Google Workspace, keep cold email volume at 25-40 new emails per mailbox per day. For Microsoft 365, stay at 30-50 per day. These limits include both new outreach and follow-ups. If you need to contact more prospects, add more mailboxes rather than increasing volume on existing ones. A typical setup for sending 100 cold emails per day requires 3-4 mailboxes rotating across 2-3 dedicated domains.</p>
+      </div>
+
+      <div class="checklist-item">
+        <div class="item-number">12</div>
+        <span class="check-label">Important</span>
+        <h3>Sending Spread Across Hours and Days</h3>
+        <p><strong>What it is:</strong> Instead of sending all your daily emails in a single burst, you distribute them across your sending window with randomized delays between messages. You also avoid sending on weekends and match the time zone of your recipients.</p>
+        <p><strong>Why it matters:</strong> Sending 30 emails in 5 minutes looks like automation. Sending 30 emails spread across 8 hours looks like a human. Mailbox providers evaluate sending velocity, and bursts of identical outbound messages trigger spam filters far more than evenly distributed sends. Timing also affects open rates: emails sent during business hours in the recipient's time zone consistently outperform off-hours sends.</p>
+        <p><strong>How to check and fix:</strong> Configure your sending tool to use a sending window of 8am-5pm in your target audience's time zone. Set random delays of 3-8 minutes between emails. Most platforms (Instantly, Smartlead, Woodpecker) have these settings built in. Avoid sending on weekends unless your audience is known to check email then. Review your sending analytics to confirm emails are distributing evenly rather than clustering.</p>
+      </div>
+
+      <div class="checklist-item">
+        <div class="item-number">13</div>
+        <span class="check-label">Important</span>
+        <h3>Rotation Across Multiple Mailboxes</h3>
+        <p><strong>What it is:</strong> Mailbox rotation distributes your outbound volume across multiple email accounts so that no single mailbox handles too much cold sending. A campaign sending 100 emails per day might rotate across 4 mailboxes, each sending 25.</p>
+        <p><strong>Why it matters:</strong> Rotation protects individual mailbox reputation. If one mailbox gets flagged or rate-limited, the others continue sending. It also makes your sending pattern look more natural, since the messages come from different accounts rather than a single automated source. Rotation is the foundation that enables you to scale cold email volume safely.</p>
+        <p><strong>How to check and fix:</strong> Set up multiple mailboxes across your dedicated sending domains. Use first-name variations (anthony@, a.volz@, anthony.volz@) to create natural-looking sender identities. In your sending platform, enable mailbox rotation and set it to round-robin or random assignment. Monitor each mailbox's individual deliverability metrics. If one mailbox shows declining inbox placement, pause it, increase its warmup, and redistribute its volume to the remaining mailboxes.</p>
+      </div>
+
+      <!-- SECTION 5: CONTENT -->
+      <h2 id="content"><span class="section-num">V.</span> Content &amp; Compliance</h2>
+
+      <p>Content filtering is the last gate your email passes through before reaching the inbox. Even with perfect infrastructure and sending practices, poorly written content or compliance violations can trigger spam filters at the message level.</p>
+
+      <div class="checklist-item">
+        <div class="item-number">14</div>
+        <span class="check-label">Required</span>
+        <h3>No Spam Trigger Words or Excessive Links</h3>
+        <p><strong>What it is:</strong> Spam trigger words are terms and phrases that content-based spam filters flag as indicative of unsolicited commercial email. Excessive links, images, and HTML formatting also raise red flags. The goal is plain-text emails that read like one person writing to another.</p>
+        <p><strong>Why it matters:</strong> Modern spam filters use machine learning to evaluate content, but they still weight specific signals heavily. Phrases like "act now," "limited time offer," "guaranteed results," and "click here" are associated with spam. More than 1-2 links in a cold email dramatically increases the chance of spam filtering. Tracking pixels (invisible images used for open tracking) also count as content that filters evaluate.</p>
+        <p><strong>How to check and fix:</strong> Write cold emails in plain text, not HTML. Keep emails under 150 words. Include a maximum of one link, and make it your calendar booking link or website, not a tracked redirect. Avoid all-caps, exclamation marks, and salesy language. Do not include images or attachments in cold emails. Disable open tracking (tracking pixels) in your sending platform, as these are increasingly flagged by Google and Microsoft. Test your emails through Mail-Tester.com before launching to check your content spam score.</p>
+      </div>
+
+      <div class="checklist-item">
+        <div class="item-number">15</div>
+        <span class="check-label">Required</span>
+        <h3>Unsubscribe Handling and Suppression Lists</h3>
+        <p><strong>What it is:</strong> Unsubscribe handling means giving recipients a clear way to opt out of future messages and honoring those requests immediately. Suppression lists are databases of email addresses that should never receive outbound messages from your organization, including people who have opted out, bounced addresses, and existing customers.</p>
+        <p><strong>Why it matters:</strong> As of 2024, Google and Yahoo require a one-click unsubscribe mechanism for bulk senders. While cold email occupies a legal grey area depending on jurisdiction, providing an opt-out is both a best practice and a deliverability advantage. When recipients cannot unsubscribe, they mark you as spam instead, which is far more damaging to your sender reputation. Suppression lists prevent you from re-emailing people who have already said no, which reduces complaints and protects your reputation over time.</p>
+        <p><strong>How to check and fix:</strong> Include a simple opt-out line at the bottom of every cold email, something like "Not interested? Reply and I'll remove you from the list" or a one-click unsubscribe link. When someone opts out, add them to your global suppression list immediately. Before every new campaign, cross-reference your lead list against your suppression list to remove any matches. Also suppress bounced addresses, existing customers, and current active conversations. Most cold email platforms maintain suppression lists automatically, but verify that yours is configured correctly. Review your <a href="../about.html">team's compliance process</a> regularly to catch any gaps.</p>
+      </div>
+
+      <!-- WRAP UP -->
+      <h2>Putting It All Together</h2>
+
+      <p>This cold email deliverability checklist is not a one-time exercise. The best cold email operators run through it before every new campaign, every new domain setup, and every time deliverability starts to slip. Treat it as a living audit that keeps your outbound system healthy.</p>
+
+      <p>If you scored well on all 15 points, your infrastructure is in strong shape. Focus on copy, targeting, and offer optimization to drive more replies.</p>
+
+      <p>If you found gaps, prioritize in this order: DNS authentication first, then warmup, then list quality, then sending practices, then content. Each layer builds on the one before it. Fixing content issues will not help if your DNS is broken, and fixing DNS will not help if your list is full of invalid addresses.</p>
+
+      <p>Need help? At <a href="../services.html">Arvani Media</a>, we handle every item on this checklist as part of our done-for-you cold email service. From domain setup and warmup to verified lead lists and campaign management, we build the entire system so you can focus on closing deals. <a href="../services.html#scorecard">Take the Outbound Readiness Scorecard</a> to see where your setup stands today.</p>
+
+      <!-- FAQ -->
+      <div class="faq-section" id="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How long does it take to fix cold email deliverability issues?</div>
+          <div class="faq-a">
+            <p>DNS authentication (SPF, DKIM, DMARC) can be configured in under an hour and propagates within 24-48 hours. Domain warmup takes 2-3 weeks. Repairing a damaged sending reputation can take 2-4 weeks of reduced volume and consistent warmup activity. Most setups can be fully audit-ready within 30 days.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What is a good inbox placement rate for cold email?</div>
+          <div class="faq-a">
+            <p>A healthy cold email program should target an inbox placement rate of 85% or higher. If you are below 70%, there are likely DNS, reputation, or content issues that need immediate attention. Use tools like GlockApps or Mail-Tester to test inbox placement across Gmail, Outlook, and Yahoo before launching campaigns.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Do I need separate domains for cold email outreach?</div>
+          <div class="faq-a">
+            <p>Yes. You should never send cold email from your primary business domain. If your cold outreach triggers spam complaints or blacklisting, it can damage the reputation of your main domain and affect all company email, including transactional and internal communications. Use dedicated secondary domains (e.g., yourbrand-mail.com or getyourbrand.com) and warm them for 2-3 weeks before sending any outbound campaigns.</p>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- .article-body -->
+  </div><!-- .article-wrapper -->
+</article>
+
+<!-- RELATED ARTICLES -->
+<section class="related-section">
+  <div class="section-header">
+    <h2>More From the <span>Blog</span></h2>
+  </div>
+  <div class="related-grid">
+    <a href="cold-email-spam-fix.html" class="related-card">
+      <div class="related-card-img" style="background:var(--dark);border-radius:8px 8px 0 0;overflow:hidden;height:140px;display:flex;align-items:center;justify-content:center">
+        <img src="covers/cold-email-spam-fix-cover.svg" alt="" style="width:100%;height:100%;object-fit:cover">
+      </div>
+      <div class="related-card-body">
+        <span class="blog-tag">Deliverability</span>
+        <h3>Why Your Cold Emails Land in Spam (And How to Fix It)</h3>
+        <span class="read-link">Read Article &rarr;</span>
+      </div>
+    </a>
+    <a href="build-b2b-lead-list.html" class="related-card">
+      <div class="related-card-img" style="background:var(--dark);border-radius:8px 8px 0 0;overflow:hidden;height:140px;display:flex;align-items:center;justify-content:center">
+        <img src="covers/build-b2b-lead-list-cover.svg" alt="" style="width:100%;height:100%;object-fit:cover">
+      </div>
+      <div class="related-card-body">
+        <span class="blog-tag">Lead Generation</span>
+        <h3>How to Build a B2B Lead List That Actually Converts</h3>
+        <span class="read-link">Read Article &rarr;</span>
+      </div>
+    </a>
+    <a href="ai-reply-classification.html" class="related-card">
+      <div class="related-card-img" style="background:var(--dark);border-radius:8px 8px 0 0;overflow:hidden;height:140px;display:flex;align-items:center;justify-content:center">
+        <img src="covers/ai-reply-classification-cover.svg" alt="" style="width:100%;height:100%;object-fit:cover">
+      </div>
+      <div class="related-card-body">
+        <span class="blog-tag">AI &amp; Automation</span>
+        <h3>How AI Reply Classification Is Changing Cold Email</h3>
+        <span class="read-link">Read Article &rarr;</span>
+      </div>
+    </a>
+    <a href="cold-email-vs-linkedin.html" class="related-card">
+      <div class="related-card-img" style="background:var(--dark);border-radius:8px 8px 0 0;overflow:hidden;height:140px;display:flex;align-items:center;justify-content:center">
+        <img src="covers/cold-email-vs-linkedin-cover.svg" alt="" style="width:100%;height:100%;object-fit:cover">
+      </div>
+      <div class="related-card-body">
+        <span class="blog-tag">Strategy</span>
+        <h3>Cold Email vs LinkedIn: Which Works Better for B2B?</h3>
+        <span class="read-link">Read Article &rarr;</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="container">
+    <h2>Want Us To <span>Handle It</span> For You?</h2>
+    <p>Stop spending hours on outbound. Let Arvani Media build and run your cold email system while you focus on closing.</p>
+    <a href="../index.html#free-leads" class="btn btn-primary">Claim 25 Free Leads &rarr;</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="nav-logo">ARVANI <span>MEDIA</span></a>
+        <p>Done-for-you cold email outreach for B2B companies. We build the system, run the campaigns, and deliver qualified meetings.</p>
+      </div>
+      <div class="footer-col"><h4>Pages</h4><a href="../index.html">Home</a><a href="../services.html">Services</a><a href="../arvani-pro.html">Arvani Pro</a><a href="../services.html#scorecard">Scorecard</a><a href="../blog.html">Blog</a><a href="../about.html">About</a></div>
+      <div class="footer-col">
+  <h4>Resources</h4>
+  <a href="../blog/cold-email-deliverability.html">Deliverability Checklist</a>
+  <a href="../services.html#scorecard">Scorecard</a>
+  <a href="../blog.html">Blog</a>
+  <a href="../index.html#free-leads">25 Free Leads</a>
+</div>
+      <div class="footer-col"><h4>Contact</h4><a href="tel:5088154211">508-815-4211</a><a href="mailto:anthony@arvani-media.com">anthony@arvani-media.com</a></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Arvani Media. All rights reserved.</span><div style="display:flex;gap:20px"><a href="../privacy-policy.html" style="color:rgba(255,255,255,.4);font-size:.75rem;text-decoration:none">Privacy Policy</a><a href="../terms.html" style="color:rgba(255,255,255,.4);font-size:.75rem;text-decoration:none">Terms of Service</a></div></div>
+  </div>
+</footer>
+
+<div class="sticky-cta"><a href="../index.html#free-leads" class="btn btn-primary">Claim 25 Free Leads &rarr;</a></div>
+
+<script>
+const navbar=document.getElementById('navbar');window.addEventListener('scroll',()=>{navbar.classList.toggle('scrolled',window.scrollY>50)});
+function toggleMobile(){document.getElementById('mobileMenu').classList.toggle('active');document.body.style.overflow=document.getElementById('mobileMenu').classList.contains('active')?'hidden':''}
+</script>
+<!-- LeadConnector Chat Widget -->
+<div data-chat-widget data-widget-id="6683af93c5fec6523335a4bd" data-location-id="qCoahhXWL17boy39Y0kd"></div>
+<script src="https://beta.leadconnectorhq.com/loader.js" data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6683af93c5fec6523335a4bd"></script>
+</body>
+</html>

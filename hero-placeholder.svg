@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 480" width="540" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d0d;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="nodeGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffb23e;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#e69a2e;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffb23e;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#ffb23e;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="540" height="480" fill="url(#bg)"/>
+
+  <!-- Ambient glow center -->
+  <ellipse cx="270" cy="240" rx="200" ry="180" fill="url(#centerGlow)"/>
+
+  <!-- Grid lines (subtle) -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="0" y1="96" x2="540" y2="96"/>
+    <line x1="0" y1="192" x2="540" y2="192"/>
+    <line x1="0" y1="288" x2="540" y2="288"/>
+    <line x1="0" y1="384" x2="540" y2="384"/>
+    <line x1="108" y1="0" x2="108" y2="480"/>
+    <line x1="216" y1="0" x2="216" y2="480"/>
+    <line x1="324" y1="0" x2="324" y2="480"/>
+    <line x1="432" y1="0" x2="432" y2="480"/>
+  </g>
+
+  <!-- Connection lines (outbound arrows) -->
+  <g stroke="rgba(255,178,62,0.18)" stroke-width="1.5" fill="none">
+    <!-- Center to right nodes -->
+    <line x1="270" y1="240" x2="430" y2="120"/>
+    <line x1="270" y1="240" x2="460" y2="240"/>
+    <line x1="270" y1="240" x2="430" y2="360"/>
+    <!-- Center to left nodes -->
+    <line x1="270" y1="240" x2="110" y2="140"/>
+    <line x1="270" y1="240" x2="80" y2="260"/>
+    <line x1="270" y1="240" x2="110" y2="360"/>
+    <!-- Secondary connections -->
+    <line x1="430" y1="120" x2="500" y2="80"/>
+    <line x1="460" y1="240" x2="520" y2="200"/>
+    <line x1="460" y1="240" x2="510" y2="280"/>
+    <line x1="430" y1="360" x2="500" y2="400"/>
+    <line x1="110" y1="140" x2="50" y2="90"/>
+    <line x1="80" y1="260" x2="30" y2="220"/>
+    <line x1="80" y1="260" x2="30" y2="300"/>
+    <line x1="110" y1="360" x2="50" y2="410"/>
+  </g>
+
+  <!-- Animated pulse lines (dashed) -->
+  <g stroke="rgba(255,178,62,0.4)" stroke-width="1" fill="none" stroke-dasharray="4,6">
+    <line x1="270" y1="240" x2="430" y2="120"/>
+    <line x1="270" y1="240" x2="430" y2="360"/>
+    <line x1="270" y1="240" x2="460" y2="240"/>
+  </g>
+
+  <!-- Arrow heads on primary lines -->
+  <g fill="rgba(255,178,62,0.5)">
+    <polygon points="430,116 422,124 438,124"/>
+    <polygon points="458,238 452,230 464,230"/>
+    <polygon points="430,364 422,356 438,356"/>
+  </g>
+
+  <!-- Outer contact nodes (small circles) -->
+  <g fill="rgba(255,178,62,0.15)" stroke="rgba(255,178,62,0.35)" stroke-width="1">
+    <circle cx="500" cy="80" r="8"/>
+    <circle cx="520" cy="200" r="6"/>
+    <circle cx="510" cy="280" r="7"/>
+    <circle cx="500" cy="400" r="8"/>
+    <circle cx="50" cy="90" r="7"/>
+    <circle cx="30" cy="220" r="6"/>
+    <circle cx="30" cy="300" r="6"/>
+    <circle cx="50" cy="410" r="8"/>
+  </g>
+
+  <!-- Mid-tier nodes -->
+  <g filter="url(#glow)">
+    <circle cx="430" cy="120" r="14" fill="rgba(255,178,62,0.2)" stroke="rgba(255,178,62,0.6)" stroke-width="1.5"/>
+    <circle cx="460" cy="240" r="14" fill="rgba(255,178,62,0.2)" stroke="rgba(255,178,62,0.6)" stroke-width="1.5"/>
+    <circle cx="430" cy="360" r="14" fill="rgba(255,178,62,0.2)" stroke="rgba(255,178,62,0.6)" stroke-width="1.5"/>
+    <circle cx="110" cy="140" r="12" fill="rgba(255,178,62,0.15)" stroke="rgba(255,178,62,0.4)" stroke-width="1.5"/>
+    <circle cx="80" cy="260" r="12" fill="rgba(255,178,62,0.15)" stroke="rgba(255,178,62,0.4)" stroke-width="1.5"/>
+    <circle cx="110" cy="360" r="12" fill="rgba(255,178,62,0.15)" stroke="rgba(255,178,62,0.4)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Center hub node -->
+  <circle cx="270" cy="240" r="42" fill="rgba(255,178,62,0.08)" stroke="rgba(255,178,62,0.2)" stroke-width="1"/>
+  <circle cx="270" cy="240" r="32" fill="rgba(255,178,62,0.12)" stroke="rgba(255,178,62,0.35)" stroke-width="1.5" filter="url(#softglow)"/>
+  <circle cx="270" cy="240" r="22" fill="url(#nodeGlow)" filter="url(#glow)"/>
+
+  <!-- Center icon: letter/envelope symbol -->
+  <g transform="translate(258,229)" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="3" width="24" height="17" rx="2"/>
+    <polyline points="0,3 12,13 24,3"/>
+  </g>
+
+  <!-- Floating email indicators -->
+  <g>
+    <!-- Email 1 top-right -->
+    <rect x="354" y="54" width="64" height="36" rx="6" fill="#1e1e1e" stroke="rgba(255,178,62,0.3)" stroke-width="1"/>
+    <line x1="362" y1="67" x2="410" y2="67" stroke="rgba(255,178,62,0.5)" stroke-width="1.5"/>
+    <line x1="362" y1="76" x2="400" y2="76" stroke="rgba(255,255,255,0.15)" stroke-width="1.2"/>
+
+    <!-- Email 2 right -->
+    <rect x="376" y="214" width="64" height="36" rx="6" fill="#1e1e1e" stroke="rgba(255,178,62,0.3)" stroke-width="1"/>
+    <line x1="384" y1="227" x2="432" y2="227" stroke="rgba(255,178,62,0.5)" stroke-width="1.5"/>
+    <line x1="384" y1="236" x2="424" y2="236" stroke="rgba(255,255,255,0.15)" stroke-width="1.2"/>
+
+    <!-- Email 3 bottom-right -->
+    <rect x="354" y="372" width="64" height="36" rx="6" fill="#1e1e1e" stroke="rgba(255,178,62,0.3)" stroke-width="1"/>
+    <line x1="362" y1="385" x2="410" y2="385" stroke="rgba(255,178,62,0.5)" stroke-width="1.5"/>
+    <line x1="362" y1="394" x2="400" y2="394" stroke="rgba(255,255,255,0.15)" stroke-width="1.2"/>
+  </g>
+
+  <!-- Reply indicator badges -->
+  <g filter="url(#glow)">
+    <circle cx="436" cy="108" r="9" fill="#22c55e"/>
+    <text x="436" y="112" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="bold" fill="white">✓</text>
+    <circle cx="466" cy="228" r="9" fill="#22c55e"/>
+    <text x="466" y="232" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="bold" fill="white">✓</text>
+  </g>
+
+  <!-- Label: OUTBOUND SYSTEM -->
+  <text x="270" y="316" text-anchor="middle" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="13" letter-spacing="3" fill="rgba(255,178,62,0.5)">OUTBOUND SYSTEM</text>
+
+  <!-- Stats strip bottom -->
+  <rect x="60" y="426" width="420" height="34" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <text x="140" y="447" text-anchor="middle" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="14" fill="rgba(255,178,62,0.9)">3,000+</text>
+  <text x="140" y="455" text-anchor="middle" font-family="sans-serif" font-size="8" fill="rgba(255,255,255,0.35)">LEADS/MO</text>
+  <line x1="210" y1="432" x2="210" y2="454" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="270" y="447" text-anchor="middle" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="14" fill="rgba(255,178,62,0.9)">95%</text>
+  <text x="270" y="455" text-anchor="middle" font-family="sans-serif" font-size="8" fill="rgba(255,255,255,0.35)">DELIVERABILITY</text>
+  <line x1="330" y1="432" x2="330" y2="454" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="400" y="447" text-anchor="middle" font-family="'Bebas Neue', 'Impact', sans-serif" font-size="14" fill="rgba(255,178,62,0.9)">&lt;2%</text>
+  <text x="400" y="455" text-anchor="middle" font-family="sans-serif" font-size="8" fill="rgba(255,255,255,0.35)">BOUNCE RATE</text>
+</svg>

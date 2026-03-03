@@ -97,8 +97,9 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
 .footer-col a{display:block;color:rgba(255,255,255,.5);font-size:.9rem;padding:4px 0;transition:var(--transition)}.footer-col a:hover{color:var(--orange)}
 .footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;justify-content:space-between;align-items:center;font-size:.8rem}
 
-@media(max-width:1024px){.deliverables-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}.stat-row{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.hero{padding:120px 0 60px}.steps-grid,.connections-grid,.deliverables-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:8px;text-align:center}.feature-card,.stat-card,.step,.plan-card,.channel-card,.cta-card{padding:20px}}
+.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media(max-width:1024px){.deliverables-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}.stat-row{grid-template-columns:repeat(2,1fr)}.value-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.nav-links{display:none}.hamburger{display:flex}.hero{padding:120px 0 60px}.steps-grid,.connections-grid,.deliverables-grid,.value-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:8px;text-align:center}.feature-card,.stat-card,.step,.plan-card,.channel-card,.cta-card{padding:20px}}
 @media(max-width:480px){
   .hero{padding:90px 0 40px}
   .section{padding:40px 0}
@@ -191,7 +192,7 @@ footer{background:#0a0a0a;color:rgba(255,255,255,.6);padding:60px 0 24px}
       <h2 style="font-family:'Bebas Neue',sans-serif;font-size:clamp(2rem,4vw,2.8rem);color:var(--dark)">The Math Behind <span style="color:var(--orange)">Managed Cold Email</span></h2>
       <p style="color:var(--text-light);font-size:1.05rem;max-width:600px;margin:16px auto 0">DIY outbound costs you 15–20 hours a week in setup, list building, writing, and optimization. We handle every piece so your team focuses on closing.</p>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:960px;margin:0 auto 40px">
+    <div class="value-grid" style="max-width:960px;margin:0 auto 40px">
       <div style="background:var(--white);border:1px solid #eee;border-radius:12px;padding:28px;text-align:center">
         <div style="font-family:'Bebas Neue',sans-serif;font-size:2.8rem;color:var(--orange)">3,000+</div>
         <div style="font-weight:600;color:var(--dark);margin:6px 0 8px">Month 1 Contacts</div>
